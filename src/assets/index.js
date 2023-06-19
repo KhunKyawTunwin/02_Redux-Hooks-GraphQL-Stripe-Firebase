@@ -1,2 +1,2 @@
-import Logo from "./ctk.svg";
-export default { Logo };
+import logo from "./ctk.svg";
+export { logo };

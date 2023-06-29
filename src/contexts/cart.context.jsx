@@ -22,6 +22,7 @@ const removeCartItem = (cartItems, cartItemToRemove) => {
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === cartItemToRemove.id
   );
+
   // check if quantity is equal to 1, if it is remove that item form the cart
   if (existingCartItem.quantity === 1) {
     return cartItems.filter((cartItem) => cartItem.id !== cartItemToRemove.id);
@@ -84,6 +85,7 @@ export const CartProvider = ({ children }) => {
 
   const value = {
     isCartOpen,
+
     setIsCartOpen,
     addItemToCart,
     removeItemFromCart,

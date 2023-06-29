@@ -1,5 +1,5 @@
 {
-  "name": "01-redux-hooks-graphql-stripe-firebase",
+  "name": "02-redux-hooks-graphql-stripe-firebase",
   "private": true,
   "version": "0.0.0",
   "type": "module",
